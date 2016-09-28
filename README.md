@@ -2,7 +2,7 @@
 
 Lee cuidadosamente las siguientes instrucciones para poder entregar y hacer bien tu tarea :)
 
-1. En el directorio encontrarás una carpeta llamada: Ejercicio-Clase-28-09-2016. Tienes una semana contando desde el día miércoles 28-09-2016 para descargarla, luego de eso el repositorio será eliminado.
+1. En el directorio encontrarás una carpeta llamada: Ejercicio-TLS-28-09-2016. Tienes una semana contando desde el día miércoles 28-09-2016 para descargarla, luego de eso el repositorio será eliminado.
 
 2. En la carpeta Docs del ejercicio encontrarás la imágene en donde verás los sitios que maquetarás con lo aprendido en clase.
 
