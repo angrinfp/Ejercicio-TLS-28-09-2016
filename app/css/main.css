@@ -1,1 +1,167 @@
 /*Inserta tu css aqui*/
+body {
+	background: #dfdfdf;
+}
+
+::-webkit-scrollbar {
+	width: 6px;
+	height: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+	background: rgba(0,0,0,0.2);
+}
+
+::-webkit-scrollbar-track {
+	background: rgba(0,0,0,0.2);
+}
+
+.all-bg::after {
+	content: '';
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 127px;
+	background: #009688;
+	z-index: -1;
+}
+
+.container {
+	background: #eee;
+	width: 1380px;
+	max-height: 905px;
+	margin: 19px auto;
+	-webkit-box-shadow: 0px 2px 6px 0px rgba(119,119,119,0.6);
+    -moz-box-shadow: 0px 2px 6px 0px rgba(119,119,119,0.6);
+	box-shadow: 0px 2px 6px 0px rgba(119,119,119,0.6);
+}
+
+.wrapper {
+	width: 100%;
+}
+
+.side {
+	width: 30%;
+	overflow: hidden;
+}
+
+.side-header {
+	width: 100%;
+	padding: 10px 15px;
+	box-sizing: border-box;
+	display: flex;
+	position: relative;
+	border-right: 1px solid #dfdfdf;
+	border-bottom: 1px solid #dfdfdf;
+}
+
+.user {
+	width: 40px;
+	height: 40px;
+	border-radius: 100px;
+	overflow: hidden;
+}
+
+.user img {
+	width: 100%;
+}
+
+.side-icons {
+	padding: 10px 0;
+	right: 20px;
+	position: absolute;
+}
+
+.icon-message,
+.icon-dots-three-vertical {
+	color: #777;
+	margin: 0 10px;
+}
+
+.form {
+	background: #f8f8f8;
+	padding: 10px 0;
+	box-sizing: border-box;
+}
+
+.search-form {
+	width: 95%;
+	margin: 0 auto;
+}
+
+.search-form input {
+	background: #fefefe;
+	border: 1px solid #f0f0f0;
+	padding: 10px;
+	box-sizing: border-box;
+	display: inline-block;
+	margin: 0;
+}
+
+#search {
+	width: calc(100% - 31px);
+	border-left: none;
+	margin-left: -15px;
+	border-radius: 0 5px 5px 0;
+}
+
+#submit {
+	vertical-align: top;
+	height: 39px;
+	border-right: none;
+	border-radius: 5px 0 0 5px;
+}
+
+.main {
+	width: 70%;
+}
+
+@media(max-width: 1468px) {
+	.container {
+		width: 1230px;
+	}
+}
+
+@media(max-width: 1348px) {
+	.container {
+		width: 1130px;
+	}
+
+	.side {
+		width: 35%;
+	}
+
+	.main {
+		width: 65%;
+	}
+}
+
+@media(max-width: 1200px) {
+	.container {
+		width: 100%;
+		height: 100%;
+		margin: 0;
+	}
+
+	body {
+		margin: 0;
+		padding: 0;
+	}
+}
+
+@media(max-width: 1200px) {
+	.side {
+		width: 40%;
+	}
+
+	.main {
+		width: 60%;
+	}
+}
+
+@media(max-width: 650px) {
+	body {
+		min-width: 650px;
+	}
+}
