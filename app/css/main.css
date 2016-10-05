@@ -1,6 +1,8 @@
 /*Inserta tu css aqui*/
 body {
 	background: #dfdfdf;
+	font-size: 14px;
+	font-family: 'Roboto', 'Open Sans';
 }
 
 ::-webkit-scrollbar {
@@ -28,9 +30,11 @@ body {
 }
 
 .container {
+	position: relative;
 	background: #eee;
 	width: 1380px;
-	max-height: 905px;
+	height: 910px;
+	max-height: 910px;
 	margin: 19px auto;
 	-webkit-box-shadow: 0px 2px 6px 0px rgba(119,119,119,0.6);
     -moz-box-shadow: 0px 2px 6px 0px rgba(119,119,119,0.6);
@@ -61,6 +65,7 @@ body {
 	height: 40px;
 	border-radius: 100px;
 	overflow: hidden;
+	cursor: pointer;
 }
 
 .user img {
@@ -74,9 +79,12 @@ body {
 }
 
 .icon-message,
-.icon-dots-three-vertical {
+.icon-dots-three-vertical,
+.icon-attachment {
 	color: #777;
 	margin: 0 10px;
+	font-size: 20px;
+	cursor: pointer;
 }
 
 .form {
@@ -115,6 +123,67 @@ body {
 
 .main {
 	width: 70%;
+	position: absolute;
+	right: 0;
+	top: 0;
+	background: #eae6e4;
+}
+
+.main-header {
+	width: 100%;
+	padding: 10px 15px;
+	box-sizing: border-box;
+	background: #eee;
+	border-bottom: 1px solid #dfdfdf;
+	display: flex;
+	position: relative;
+}
+
+.main-icons {
+	padding: 10px 0;
+	right: 20px;
+	position: absolute;
+}
+
+.chat-info {
+	margin-left: 10px;
+	color: #444;
+	cursor: pointer;
+}
+
+h4,p {
+	margin: 0;
+	padding: 0;
+}
+
+h4 {
+	margin-bottom: 3px;
+}
+
+.chat-box {
+	background: url(../image/chat-panel-bg.png);
+	padding: 10px 30px;
+}
+
+.chat-bubble {
+	background: #fff;
+	border-radius: 5px;
+	padding: 20px;
+	width: 400px;
+	margin-bottom: 3px;
+}
+
+h5 {
+	margin: 0;
+	padding: 0;
+}
+
+.your-chat-bubble {
+	background: #e3f4c6;
+	border-radius: 5px;
+	padding: 20px;
+	width: 400px;
+	margin-bottom: 3px;
 }
 
 @media(max-width: 1468px) {
